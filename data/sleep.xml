@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2016-12-30T03:53:23Z</date>
+	<key>Application Version</key><string>12.5.4.42</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>500239443DBEFCF7</string>
+	<key>Tracks</key>
+	<dict>
+		<key>1026</key>
+		<dict>
+			<key>Track ID</key><integer>1026</integer>
+			<key>Name</key><string>Dark Fantasy</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Album</key><string>My Beautiful Dark Twisted Fantasy</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10998682</integer>
+			<key>Total Time</key><integer>272666</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2016-03-19T07:23:49Z</date>
+			<key>Date Added</key><date>2016-03-19T07:30:46Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>52</integer>
+			<key>Play Date</key><integer>3548491289</integer>
+			<key>Play Date UTC</key><date>2016-06-11T19:01:29Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-11-06T22:01:03Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>A775E56386FAD395</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/My%20Beautiful%20Dark%20Twisted%20Fantasy/01%20Dark%20Fantasy.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1036</key>
+		<dict>
+			<key>Track ID</key><integer>1036</integer>
+			<key>Name</key><string>Monster</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Album</key><string>My Beautiful Dark Twisted Fantasy</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>14809414</integer>
+			<key>Total Time</key><integer>367934</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>6</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2016-03-19T07:23:49Z</date>
+			<key>Date Added</key><date>2016-03-19T07:30:46Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>71</integer>
+			<key>Play Date</key><integer>3548491657</integer>
+			<key>Play Date UTC</key><date>2016-06-11T19:07:37Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>9BA4D2C0E1BE6AE1</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/My%20Beautiful%20Dark%20Twisted%20Fantasy/06%20Monster.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1040</key>
+		<dict>
+			<key>Track ID</key><integer>1040</integer>
+			<key>Name</key><string>Devil In A New Dress</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Album</key><string>My Beautiful Dark Twisted Fantasy</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>13762453</integer>
+			<key>Total Time</key><integer>341760</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>8</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2016-03-19T07:23:49Z</date>
+			<key>Date Added</key><date>2016-03-19T07:30:46Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>53</integer>
+			<key>Play Date</key><integer>3548491999</integer>
+			<key>Play Date UTC</key><date>2016-06-11T19:13:19Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>B3637ACE521B5167</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/My%20Beautiful%20Dark%20Twisted%20Fantasy/08%20Devil%20In%20A%20New%20Dress.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1046</key>
+		<dict>
+			<key>Track ID</key><integer>1046</integer>
+			<key>Name</key><string>Blame Game</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Album</key><string>My Beautiful Dark Twisted Fantasy</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>18343267</integer>
+			<key>Total Time</key><integer>456280</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>11</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2016-03-19T07:23:49Z</date>
+			<key>Date Added</key><date>2016-03-19T07:30:46Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>49</integer>
+			<key>Play Date</key><integer>3545786413</integer>
+			<key>Play Date UTC</key><date>2016-05-11T11:40:13Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>4E468DAFEC6C396A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/My%20Beautiful%20Dark%20Twisted%20Fantasy/11%20Blame%20Game.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1048</key>
+		<dict>
+			<key>Track ID</key><integer>1048</integer>
+			<key>Name</key><string>Lost In The World</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Album</key><string>My Beautiful Dark Twisted Fantasy</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>10059330</integer>
+			<key>Total Time</key><integer>249182</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>12</integer>
+			<key>Track Count</key><integer>13</integer>
+			<key>Year</key><integer>2010</integer>
+			<key>Date Modified</key><date>2016-03-19T07:23:49Z</date>
+			<key>Date Added</key><date>2016-03-19T07:30:46Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>48</integer>
+			<key>Play Date</key><integer>3545786662</integer>
+			<key>Play Date UTC</key><date>2016-05-11T11:44:22Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>CA87F6C63D2423BF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/My%20Beautiful%20Dark%20Twisted%20Fantasy/12%20Lost%20In%20The%20World.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>2574</key>
+		<dict>
+			<key>Track ID</key><integer>2574</integer>
+			<key>Name</key><string>Black Skinhead</string>
+			<key>Artist</key><string>Kanye West</string>
+			<key>Album Artist</key><string>Kanye West</string>
+			<key>Composer</key><string>Kanye West, Guy-Manuel de Homem-Christo, Thomas Bangalter, Malik Jones, Cydel Young, Elon Rutberg, Wasalu Jaco, Sakiya Sandifer, Mike Dean &#38; Derrick Watkins</string>
+			<key>Album</key><string>Yeezus</string>
+			<key>Genre</key><string>Hip-Hop/Rap</string>
+			<key>Kind</key><string>MPEG audio file</string>
+			<key>Size</key><integer>7387684</integer>
+			<key>Total Time</key><integer>182622</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>2</integer>
+			<key>Track Count</key><integer>10</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2016-03-19T07:39:54Z</date>
+			<key>Date Added</key><date>2016-03-19T07:40:37Z</date>
+			<key>Bit Rate</key><integer>320</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Play Count</key><integer>49</integer>
+			<key>Play Date</key><integer>3545786845</integer>
+			<key>Play Date UTC</key><date>2016-05-11T11:47:25Z</date>
+			<key>Skip Count</key><integer>1</integer>
+			<key>Skip Date</key><date>2016-12-30T03:52:33Z</date>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Persistent ID</key><string>2B47B7404C4BD743</string>
+			<key>Track Type</key><string>File</string>
+			<key>Location</key><string>file:///Users/bhuang/Music/iTunes/iTunes%20Media/Music/Compilations/Yeezus/02%20Black%20Skinhead.mp3</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>sleep</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>7948</integer>
+			<key>Playlist Persistent ID</key><string>4845A36D38298359</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>1026</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1036</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1040</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1046</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1048</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2574</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
