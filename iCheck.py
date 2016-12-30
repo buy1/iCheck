@@ -25,7 +25,7 @@ def findDuplicate(file1Path, file2Path):
 	duplicates={}
 	for k1,v1 in dict1.items():
 		for k2,v2 in dict2.items():
-			if k1==k2 and (v2-v1)<500:
+			if k1==k2 and (v2-v1)<500: #Checks whether the names are the same and then whether each song is within 500ms of each other
 				duplicates[k1]=v1
 	return duplicates
 def main():
@@ -33,7 +33,6 @@ def main():
 	path2="data/sleep.xml"
 	
 	dict=findDuplicate(path1, path2)
-
 	print (dict)
 	
 if __name__ == "__main__":
