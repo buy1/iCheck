@@ -4,7 +4,6 @@ import plistlib
 from matplotlib import pyplot
 import numpy as np
 
-
 #creates a Dictionary where the key is the name of the track and the value is the song length
 def createTrackDict(filePath):
 	#instantiates
@@ -19,13 +18,23 @@ def createTrackDict(filePath):
 		trackDict[trackName]=trackLength
 	return trackDict
 
-	#finds the
-def findDuplicates(file1Path, file2Path)
+	#finds the same tracks between 2 playlists
+def findDuplicate(file1Path, file2Path):
 	dict1=createTrackDict(file1Path)
 	dict2=createTrackDict(file2Path)
-	for name
+	duplicates={}
+	for k1,v1 in dict1.items():
+		for k2,v2 in dict2.items():
+			if k1==k2 and (v2-v1)<500:
+				duplicates[k1]=v1
+	return duplicates
 def main():
+	path1="data/kanye.xml"
+	path2="data/sleep.xml"
+	
+	dict=findDuplicate(path1, path2)
 
-
+	print (dict)
+	
 if __name__ == "__main__":
 	main()		

@@ -1,6 +1,11 @@
 import sys
 import plistlib
 
+print (10 in range(9,14))
+
+
+
+"""
 filePath="Focus.xml"
 file=open(filePath,"rb")
 plist=plistlib.load(file,fmt=plistlib.FMT_XML,use_builtin_types=False,dict_type=dict)
@@ -12,3 +17,4 @@ for id,track in tracks.items():
 	trackLength=track['Total Time']
 	trackDict[trackName]=trackLength
 print (trackDict)
+"""
