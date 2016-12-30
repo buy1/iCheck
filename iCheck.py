@@ -13,7 +13,7 @@ def createTrackDict(filePath):
 	#plist=plistlib.readPlist(file) #This is backwards compatible with Python 2.7.1
 	tracks=plist['Tracks']
 	trackDict={} #creates an empty dictionary to store the name of the tracks that are duplicates
-	for track in tracks.items():
+	for id,track in tracks.items():
 		trackName=track['Name']
 		trackLength=track['Total Time']
 		trackDict[trackName]=trackLength
