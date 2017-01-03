@@ -1,41 +1,32 @@
-import sys
-import plistlib
-def createTrackDict(filePath):
-	filePath="data/kanye.xml"
-	file=open(filePath,"rb")
-	plist=plistlib.load(file,fmt=plistlib.FMT_XML,use_builtin_types=False,dict_type=dict)
-	#plist=plistlib.readPlist(filePath) #This is backwards compatible with Python 2.7
-	tracks=plist['Tracks']
-	trackDict={} #creates an empty dictionary to store the name of the tracks that are duplicates
-	for id,track in tracks.items():
-		try:
-			info={}
-			trackName=track['Name']
-			trackLength=track['Total Time']
-			timesPlayed=track['Play Count']
-			info['Duration']=trackLength
-			trackDict[trackName]=info
-			info['Rating']=trackRating
-		except:
-			pass
-	file.close()
-	return trackDict
-def findDuplicate(file1Path, file2Path):
-	dict1=createTrackDict(file1Path)
-	dict2=createTrackDict(file2Path)
-	duplicates={}
-	for k1,v1 in dict1.items():
-		for k2,v2 in dict2.items():
-			if k1==k2 and (v2-v1)<500: #Checks whether the names are the same and then whether each song is within 500ms of each other
-				duplicates[k1]=v1
-	return duplicates
-def
-def main():
-	path1="data/kanye.xml"
-	path2="data/sleep.xml"
-	
-	dict=findDuplicate(path1, path2)
-	print (dict)
-	
-if __name__ == "__main__":
-	main()		
+from tkinter import *
+
+class Window(Frame):
+	def __init__(self, master=None): #
+		Frame.__init__(self,master)
+		self.master=master
+		self.init_window()
+
+	def init_window(self):
+		self.master.title("GUI") #sets the title to GUI
+		self.pack(fill=BOTH, expand=1) #puts itself into the frame
+		#quitButton = Button(self, text="Quit", command=self.client_exit)
+		#quitButton.place(x=0,y=0)
+
+		menu = Menu(self.master) # makes 
+		self.master.config(menu=menu)
+
+		file=Menu(menu) #Makes a menu called menu
+		file.add_command(label="Exit",command=self.client_exit) #adds the exit command to the menu
+		menu.add_cascade(label="File",menu=file)#makes a topbar item called File and gives it the cascade option
+
+		edit = Menu(menu)
+		file.add_command(label="Undo")
+		menu.add_cascade(label="Edit",menu=file)#Does the same as above except the menu item is called Edit
+
+
+	def client_exit(self):
+		exit()
+root=Tk()
+root.geometry("400x300")
+app=Window(root)
+root.mainloop()
