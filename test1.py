@@ -59,7 +59,7 @@ class iCheck(Frame):
 	def compareButton(self):
 		if self.path1 != "" and self.path2 != "":
 			results=(iCheck.findDuplicateFast(self.path1,self.path2))
-
+			
 			Label(self,text=results).place(relx=0.8, rely=0.15, anchor=SE)
 		else:
 			print ("Error: Missing path")

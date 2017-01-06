@@ -29,15 +29,15 @@ class iCheck(Frame):
 		edit.add_command(label="Undo")
 		menu.add_cascade(label="Edit",menu=edit)#Does the same as above except the menu item is called Edit
 
-		browseButton1 = Button(self, text="Browse",command=self.browseButton1).grid(row=1, column=1)
+		browseButton1 = Button(self, text="Browse",command=self.browseButton1).place(relx=0.1, rely=0.1, anchor=SE)
 
-		browseButton2=Button(self,text="Browse",command=self.browseButton2).grid(row=1,column=4)
+		browseButton2=Button(self,text="Browse",command=self.browseButton2).place(relx=0.1, rely=0.2, anchor=SE)
 
-		compareButton=Button(self,text="Compare",command=self.compareButton).grid(row=2,column=3)
+		compareButton=Button(self,text="Compare",command=self.compareButton).place(relx=0.7, rely=0.15, anchor=SE)
 
-		browseButton3=Button(self,text="Browse",command=self.browseButton3).grid(row=4,column=1)
+		browseButton3=Button(self,text="Browse",command=self.browseButton3).place(relx=0.1, rely=0.4, anchor=SE)
 
-		plotButton=Button(self,text="Plot",command=self.plotButton).grid(row=5,column=3)
+		plotButton=Button(self,text="Plot",command=self.plotButton).place(relx=0.1, rely=0.5, anchor=SE)
 
 	def browseButton1(self):
 		from tkinter import filedialog
@@ -45,7 +45,7 @@ class iCheck(Frame):
 		file=filedialog.askopenfile(mode='rb',title='Choose a file')
 		self.path1=file.name
 
-		Label(self,text=file.name).grid(row=1,column=2)
+		Label(self,text=file.name).place(relx=0.5, rely=0.1, anchor=SE)
 
 
 	def browseButton2(self):
@@ -54,13 +54,13 @@ class iCheck(Frame):
 		file=filedialog.askopenfile(mode='rb',title='Choose a file')
 		self.path2=file.name
 
-		Label(self,text=file.name).grid(row=1,column=5)
+		Label(self,text=file.name).place(relx=0.5, rely=0.2, anchor=SE)
 
 	def compareButton(self):
 		if self.path1 != "" and self.path2 != "":
 			results=(iCheck.findDuplicateFast(self.path1,self.path2))
-
-			Label(self,text=results).grid(row=3,column=3)
+			
+			Label(self,text=results).place(relx=0.8, rely=0.15, anchor=SE)
 		else:
 			print ("Error: Missing path")
 
@@ -70,7 +70,7 @@ class iCheck(Frame):
 		file=filedialog.askopenfile(mode='rb',title='Choose a file')
 		self.path3=file.name
 
-		Label(self,text=file.name).grid(row=4,column=2)
+		Label(self,text=file.name).place(relx=0.6, rely=0.4, anchor=CENTER)
 
 	def plotButton(self):
 		if self.path3 != "":
